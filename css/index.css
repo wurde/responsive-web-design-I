@@ -118,6 +118,10 @@ ul li {
   margin: 12px;
 }
 
+.my-4 {
+  margin: 33px 0px;
+}
+
 .mt-3 {
   margin-top: 12px;
 }
@@ -203,6 +207,21 @@ ul li {
 }
 
 @media(max-width: 800px) {
+  .container {
+    width: 80%;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+
+  .d-md-none {
+    display: none;
+  }
+
+  .text-md-center {
+    text-align: center;
+  }
 }
 
 @media(max-width: 500px) {
