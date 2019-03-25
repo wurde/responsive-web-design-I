@@ -110,7 +110,7 @@ ul li {
 
 .btn {
   border: 1px solid black;
-  padding: 8px 40px;
+  padding: 5px 45px;
   text-decoration: none;
 }
 
@@ -146,8 +146,8 @@ ul li {
   padding: 12px;
 }
 
-.pb-6 {
-  padding-bottom: 100px;
+.pb-4 {
+  padding-bottom: 50px;
 }
 
 .page-border {
@@ -208,7 +208,7 @@ ul li {
 
 @media(max-width: 800px) {
   .container {
-    width: 80%;
+    width: 95%;
   }
 
   .flex-direction-column-reverse-md {
@@ -225,6 +225,10 @@ ul li {
 
   .text-md-center {
     text-align: center;
+  }
+
+  .mb-2-md {
+    margin-bottom: 12px;
   }
 }
 
