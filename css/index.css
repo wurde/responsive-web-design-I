@@ -267,4 +267,8 @@ ul li {
   .py-4-sm {
     padding: 18px 0px;
   }
+
+  .mt-3-sm {
+    margin-top: 12px;
+  }
 }
