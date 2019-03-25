@@ -1,0 +1,181 @@
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+* {
+  color: #000;
+}
+
+p {
+  line-height: 1.3rem;
+}
+
+ul li {
+  list-style-type: disc;
+}
+
+/* Re-usable CSS class-based styles */
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px 0px;
+  height: 100%;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.col, .col-3, .col-4, .col-6, .col-9, .col-12 {
+  padding: 0px 20px;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-4 {
+  width: 33%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.a-nostyle {
+  text-decoration: none;
+}
+
+.a-nostyle:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  border: 1px solid black;
+  padding: 8px 40px;
+  text-decoration: none;
+}
+
+.m-3 {
+  margin: 12px;
+}
+
+.mt-3 {
+  margin-top: 12px;
+}
+
+.mt-6 {
+  margin-top: 80px;
+}
+
+.mb-2 {
+  margin-bottom: 12px;
+}
+
+.ml-3 {
+  margin-left: 20px;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-3 {
+  padding: 12px;
+}
+
+.pb-6 {
+  padding-bottom: 100px;
+}
+
+.page-border {
+  border: 1px solid black;
+}
+
+.img-100 {
+  width: 100%;
+}
+
+.align-content-center {
+  align-content: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.list-nostyle {
+  list-style-type: none;
+}
+
+.bg-grey {
+  background-color: #EEE;
+}
+
+.bg-white {
+  background-color: #FFF;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.line-height-2x {
+  line-height: 2rem;
+}
+
+.text-grey {
+  color: #777;
+}
+
+.text-size-5x {
+  font-size: 5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+@media(max-width: 800px) {
+}
+
+@media(max-width: 500px) {
+}
