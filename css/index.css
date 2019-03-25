@@ -271,4 +271,8 @@ ul li {
   .mt-3-sm {
     margin-top: 12px;
   }
+
+  .mb-6-sm {
+    margin-bottom: 50px;
+  }
 }
