@@ -1,3 +1,283 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
 
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
 
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+* {
+  color: #000;
+}
+
+p {
+  line-height: 1.3rem;
+}
+
+ul li {
+  list-style-type: disc;
+}
+
+/* Re-usable CSS class-based styles */
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px 0px;
+  height: 100%;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  padding: 0px 20px;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-8 {
+  width: 66%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-5 {
+  width: 41.65%;
+}
+
+.col-4 {
+  width: 33%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.a-nostyle {
+  text-decoration: none;
+}
+
+.a-nostyle:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  border: 1px solid black;
+  padding: 5px 45px;
+  text-decoration: none;
+}
+
+.m-3 {
+  margin: 12px;
+}
+
+.my-4 {
+  margin: 33px 0px;
+}
+
+.mt-3 {
+  margin-top: 12px;
+}
+
+.mt-6 {
+  margin-top: 80px;
+}
+
+.mb-2 {
+  margin-bottom: 12px;
+}
+
+.ml-3 {
+  margin-left: 20px;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-3 {
+  padding: 12px;
+}
+
+.pb-4 {
+  padding-bottom: 50px;
+}
+
+.page-border {
+  border: 1px solid black;
+}
+
+.img-100 {
+  width: 100%;
+}
+
+.align-content-center {
+  align-content: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.list-nostyle {
+  list-style-type: none;
+}
+
+.bg-grey {
+  background-color: #EEE;
+}
+
+.bg-white {
+  background-color: #FFF;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.line-height-2x {
+  line-height: 2rem;
+}
+
+.text-grey {
+  color: #777;
+}
+
+.text-size-5x {
+  font-size: 5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+@media(max-width: 800px) {
+  .container {
+    width: 95%;
+  }
+
+  .flex-direction-column-reverse-md {
+    flex-direction: column-reverse;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+
+  .d-md-none {
+    display: none;
+  }
+
+  .text-md-center {
+    text-align: center;
+  }
+
+  .mb-2-md {
+    margin-bottom: 12px;
+  }
+}
+
+@media(max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+
+  .row-sm {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px 0px;
+    height: 100%;
+  }
+
+  .col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    width: 100%;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+  }
+
+  .justify-items-center-sm {
+    justify-items: center;
+  }
+
+  .border-top-sm {
+    border-top: 1px solid black;
+  }
+
+  .border-bottom-sm {
+    border-bottom: 1px solid black;
+  }
+
+  .py-4-sm {
+    padding: 18px 0px;
+  }
+
+  .px-0-sm {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .mt-3-sm {
+    margin-top: 12px;
+  }
+
+  .mb-6-sm {
+    margin-bottom: 50px;
+  }
+}
